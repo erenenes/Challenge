@@ -1,0 +1,47 @@
+﻿body, html .fluid-container {
+    height: 100%;
+    background-color: #e6e1e1 !important;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../../Assets/Images/loginWallpaper.jpg");
+    /* Full height */
+    height: 100%;
+    width: 100%;
+    /* Center and scale the image nicely */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+.flexbox-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    align-items: center;
+    height: 100%;
+}
+.loginIcon{
+    border-radius:50%;
+    margin-left:35%;
+    height:70px;
+}
+.card{
+    border-radius:15px !important;
+}
+.card-body{
+    padding:20% !important;
+}
+.btn-login {
+    background-color: #d5190d !important;
+    border:1px solid #fff !important;
+}
+    .btn-login:hover {
+        background-color: #e6e1e1 !important;
+        color: #d5190d !important;
+    }
+
